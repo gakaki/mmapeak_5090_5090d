@@ -1,0 +1,92 @@
+----------------------------------------
+Device 0: NVIDIA GeForce RTX 5090 D
+  Compute capability: 12.0
+  Total global memory: 31.8 GiB
+  Multiprocessor count: 170
+Running benchmarks with target time: 3.0 seconds
+mma_s4s4s32_8_8_32
+run: 2987.2 ms 75.8 T(fl)ops
+mma_mxf4mxf4f32_16_8_64
+run: 2974.2 ms 859.6 T(fl)ops
+mma_nvf4nvf4f32_16_8_64
+run: 3013.3 ms 859.4 T(fl)ops
+mma_f4f4f16_16_8_32
+run: 3043.1 ms 342.5 T(fl)ops
+mma_f4f4f32_16_8_32
+run: 3002.8 ms 353.7 T(fl)ops
+mma_f6f6f16_16_8_32
+run: 2972.8 ms 353.5 T(fl)ops
+mma_f6f6f32_16_8_32
+run: 2946.9 ms 351.6 T(fl)ops
+mma_mxf6mxf6f32_16_8_32
+run: 2950.9 ms 352.3 T(fl)ops
+mma_mxf8mxf8f32_16_8_32
+run: 2995.3 ms 426.5 T(fl)ops
+mma_f8f8f16_16_8_32
+run: 3011.2 ms 427.6 T(fl)ops
+mma_f8f8f32_16_8_32
+run: 2873.1 ms 352.3 T(fl)ops
+mma_s8s8s32_16_16_16
+run: 2997.1 ms 428.6 T(fl)ops
+mma_s8s8s32_32_8_16
+run: 2972.7 ms 429.4 T(fl)ops
+mma_f16f16f16_16_16_16
+run: 3016.9 ms 427.9 T(fl)ops
+mma_f16f16f16_32_8_16
+run: 2993.2 ms 426.9 T(fl)ops
+mma_f16f16f32_16_16_16
+run: 2997.0 ms 337.0 T(fl)ops
+mma_f16f16f32_32_8_16
+run: 2865.6 ms 331.6 T(fl)ops
+mma_bf16bf16f32_16_16_16
+run: 3032.4 ms 340.5 T(fl)ops
+mma_bf16bf16f32_32_8_16
+run: 3034.0 ms 347.5 T(fl)ops
+mma_tf32tf32f32_16_16_8
+run: 3000.9 ms 85.5 T(fl)ops
+----------------------------------------
+Device 1: NVIDIA GeForce RTX 5090
+  Compute capability: 12.0
+  Total global memory: 31.8 GiB
+  Multiprocessor count: 170
+Running benchmarks with target time: 3.0 seconds
+mma_s4s4s32_8_8_32
+run: 3004.6 ms 79.5 T(fl)ops
+mma_mxf4mxf4f32_16_8_64
+run: 2975.2 ms 1462.4 T(fl)ops
+mma_nvf4nvf4f32_16_8_64
+run: 2996.1 ms 1463.6 T(fl)ops
+mma_f4f4f16_16_8_32
+run: 3000.2 ms 369.9 T(fl)ops
+mma_f4f4f32_16_8_32
+run: 2998.6 ms 369.9 T(fl)ops
+mma_f6f6f16_16_8_32
+run: 3000.2 ms 369.9 T(fl)ops
+mma_f6f6f32_16_8_32
+run: 2997.8 ms 369.9 T(fl)ops
+mma_mxf6mxf6f32_16_8_32
+run: 2998.7 ms 369.9 T(fl)ops
+mma_mxf8mxf8f32_16_8_32
+run: 2996.5 ms 731.5 T(fl)ops
+mma_f8f8f16_16_8_32
+run: 2996.8 ms 732.3 T(fl)ops
+mma_f8f8f32_16_8_32
+run: 2999.1 ms 369.9 T(fl)ops
+mma_s8s8s32_16_16_16
+run: 2999.5 ms 740.9 T(fl)ops
+mma_s8s8s32_32_8_16
+run: 3000.7 ms 740.9 T(fl)ops
+mma_f16f16f16_16_16_16
+run: 3000.3 ms 740.8 T(fl)ops
+mma_f16f16f16_32_8_16
+run: 2997.5 ms 740.7 T(fl)ops
+mma_f16f16f32_16_16_16
+run: 2992.5 ms 369.9 T(fl)ops
+mma_f16f16f32_32_8_16
+run: 2999.4 ms 369.9 T(fl)ops
+mma_bf16bf16f32_16_16_16
+run: 2999.9 ms 369.9 T(fl)ops
+mma_bf16bf16f32_32_8_16
+run: 2998.9 ms 369.9 T(fl)ops
+mma_tf32tf32f32_16_16_8
+run: 2997.0 ms 93.3 T(fl)ops
