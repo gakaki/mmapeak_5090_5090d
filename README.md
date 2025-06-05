@@ -5,7 +5,7 @@
 
 这是一个基于 Vue 3 + Vite + AntV 的 CUDA 矩阵乘法性能测试结果可视化应用程序。
 
-![性能对比图表](./performance-chart.png)
+![性能对比图表](./benchmark.png)
 
 ## 功能特性
 
